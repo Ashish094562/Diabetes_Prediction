@@ -1,4 +1,4 @@
-# 🩺 Diabetes Prediction System (Full-Stack ML + PostgreSQL)
+# 🩺 Diabetes Prediction System (Full-Stack ML)
 
 ![Java](https://img.shields.io/badge/Java-17-blue?logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.3-brightgreen?logo=springboot)
@@ -105,15 +105,23 @@ npm run dev
 
 ## 🧮 Model Details
 
-- Algorithm: XGBoost / Random Forest
+- Algorithm: ensemble of **Logistic Regression** and **XGBoost** models
 
-- Dataset: PIMA Indians Diabetes Dataset
+- Dataset: diabetes prediction dataset
 
 - Metrics: Accuracy, Precision, Recall, F1-Score
 
 - Focus: Improved minority class performance (diabetic = 1)
 
 - Techniques: Class balancing, threshold tuning, hyperparameter optimization
+
+## 🧠 ML Algorithms Used
+
+- **Logistic Regression**: A simple, interpretable algorithm great for binary classification.
+- **XGBoost Classifier**: A powerful gradient boosting method well-suited for handling imbalance and nonlinear patterns.
+- **SMOTE** : A resampling algorithm used specifically in imbalanced classification problems.
+- **Ensemble Approach**: Combines both models using soft voting to improve overall predictive performance.
+
 
 ## 💡 Author
 
