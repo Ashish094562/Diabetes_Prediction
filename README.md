@@ -65,10 +65,11 @@ Repo	Description	Link
 
 ## 🧰 Local Setup Guide
 1️⃣ Clone all repositories
-- git clone https://github.com/Ashish094562/model-api.git
-- git clone https://github.com/Ashish094562/Diabetes_SpringBoot.git
-- git clone https://github.com/Ashish094562/Diabetes_Web.git
-
+```text
+git clone https://github.com/Ashish094562/model-api.git
+git clone https://github.com/Ashish094562/Diabetes_SpringBoot.git
+git clone https://github.com/Ashish094562/Diabetes_Web.git
+```
 2️⃣ Run Model API (Flask)
 - cd model-api
 - pip install -r requirements.txt
