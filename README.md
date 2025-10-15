@@ -1,36 +1,41 @@
-# 🩺 Diabetes Prediction System (Full-Stack ML App)
+# 🩺 Diabetes Prediction System (Full-Stack ML + PostgreSQL)
 
-An end-to-end **Diabetes Prediction Web Application** powered by **Machine Learning**, built with  
-🧠 **Python (Flask)** for model inference,  
-🚀 **Spring Boot (Java)** for API orchestration, and  
-🎨 **React + Vite** for an interactive user interface.
-
----
-
-## 🌐 Live Demo
-
-| Component | URL |
-|------------|------|
-| 🧠 **Model API (Flask)** | [https://model-api-3-zbk6.onrender.com](https://model-api-3-zbk6.onrender.com) |
-| ⚙️ **Spring Boot Backend** | [https://diabetes-springboot-1.onrender.com](https://diabetes-springboot-1.onrender.com) |
-| 💻 **Frontend (React)** | [https://diabetes-web-lime.vercel.app](https://diabetes-web-lime.vercel.app) |
-| 🔘 **Database** | using PostgreSQL 17 by render
+![Java](https://img.shields.io/badge/Java-17-blue?logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.3-brightgreen?logo=springboot)
+![React](https://img.shields.io/badge/React-18-61dafb?logo=react)
+![Python](https://img.shields.io/badge/Python-3.10-yellow?logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.2-black?logo=flask)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
+![Render](https://img.shields.io/badge/Deployed%20on-Render-purple?logo=render)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black?logo=vercel)
 
 ---
 
-## 🏗️ Project Architecture
+## 🌐 Live Deployment
+
+| Component | Platform | Live URL |
+|------------|-----------|-----------|
+| 💻 **Frontend (React + Vite)** | Vercel | [https://diabetes-web-lime.vercel.app](https://diabetes-web-lime.vercel.app) |
+| ⚙️ **Backend (Spring Boot)** | Render | [https://diabetes-springboot-1.onrender.com](https://diabetes-springboot-1.onrender.com) |
+| 🧠 **Model API (Flask)** | Render | [https://model-api-3-zbk6.onrender.com](https://model-api-3-zbk6.onrender.com) |
+| 🗄️ **Database (PostgreSQL)** | Render | Managed internally by backend |
+
+---
+
+## 🏗️ System Architecture
 
 ```text
 Frontend (React + Vite + Tailwind)
            │
            ▼
-Spring Boot Backend (Java) ---> Database
+Spring Boot Backend (Java)
+           │
+           ▼
+PostgreSQL Database (on Render)
            │
            ▼
 Model API (Flask + ML Model)
-           │
-           ▼
-Trained ML Model (XGBoost / RandomForest)
+
 ```
 ## 📁 Repository Structure
 Repo	Description	Link
