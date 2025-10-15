@@ -37,13 +37,12 @@ PostgreSQL Database (on Render)
 Model API (Flask + ML Model)
 
 ```
-## 📁 Repository Structure
-Repo	Description	Link
-🧠 Model API (Python)	Flask app serving ML model predictions.	model-api
-
-⚙️ Spring Boot Backend	Handles routing, CORS, and integrates frontend with model API.	Diabetes_SpringBoot
-
-💻 Frontend (React)	Modern web UI with Vite and Tailwind CSS.	Diabetes_Web
+## 📁 Repositories
+| Repo | Description | GitHub Link |
+|------|-------------|-------------|
+| Model API | ML API for diabetes prediction | [Link](https://github.com/Ashish094562/model-api) |
+| Backend | Spring Boot backend integrating DB & API | [Link](https://github.com/Ashish094562/Diabetes_SpringBoot) |
+| Frontend | React + Tailwind UI | [Link](https://github.com/Ashish094562/Diabetes_Web) |
 
 ## 🔍 Features
 
