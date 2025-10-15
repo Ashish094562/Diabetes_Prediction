@@ -119,4 +119,3 @@ npm run dev
 
 👨‍💻 Ashish Singh
 🎓 B.Tech Student | Aspiring Data Scientist | Java & ML Enthusiast
-📬 GitHub Profile
