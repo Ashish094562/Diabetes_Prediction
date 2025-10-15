@@ -14,6 +14,7 @@ An end-to-end **Diabetes Prediction Web Application** powered by **Machine Learn
 | 🧠 **Model API (Flask)** | [https://model-api-3-zbk6.onrender.com](https://model-api-3-zbk6.onrender.com) |
 | ⚙️ **Spring Boot Backend** | [https://diabetes-springboot-1.onrender.com](https://diabetes-springboot-1.onrender.com) |
 | 💻 **Frontend (React)** | [https://diabetes-web-lime.vercel.app](https://diabetes-web-lime.vercel.app) |
+| 🔘 **Database** | using PostgreSQL 17 by render
 
 ---
 
@@ -23,7 +24,7 @@ An end-to-end **Diabetes Prediction Web Application** powered by **Machine Learn
 Frontend (React + Vite + Tailwind)
            │
            ▼
-Spring Boot Backend (Java)
+Spring Boot Backend (Java) ---> Database
            │
            ▼
 Model API (Flask + ML Model)
@@ -71,32 +72,31 @@ git clone https://github.com/Ashish094562/Diabetes_SpringBoot.git
 git clone https://github.com/Ashish094562/Diabetes_Web.git
 ```
 2️⃣ Run Model API (Flask)
-- cd model-api
-- pip install -r requirements.txt
-- python app.py
-
+```text
+cd model-api
+pip install -r requirements.txt
+python app.py
+```
 - Runs at: http://localhost:5000
 
 3️⃣ Run Backend (Spring Boot)
-- cd Diabetes_SpringBoot
--mvn spring-boot:run
-
+```text
+cd Diabetes_SpringBoot
+mvn spring-boot:run
+```
 
 Runs at: http://localhost:8080
 
 4️⃣ Run Frontend (React)
-- cd Diabetes_Web
-- npm install
-- npm run dev
-
+```text
+cd Diabetes_Web
+npm install
+npm run dev
+```
 
 - Runs at: http://localhost:5173
 
-5️⃣ Environment Variables
 
-- In the frontend .env file:
-
-VITE_API_BASE_URL=https://diabetes-springboot-1.onrender.com
 
 ## 🧮 Model Details
 
