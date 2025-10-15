@@ -42,13 +42,13 @@ Repo	Description	Link
 
 ## 🔍 Features
 
-✅ Real-time diabetes prediction using ML
-✅ Clean UI built with React + Tailwind CSS
-✅ RESTful API with Spring Boot
-✅ Flask microservice hosting the ML model
-✅ Deployed using Render (Backend + Model) and Vercel (Frontend)
-✅ Cross-origin support and secure communication
-✅ Fully modular & extendable architecture
+- Real-time diabetes prediction using ML
+- Clean UI built with React + Tailwind CSS
+- RESTful API with Spring Boot
+- Flask microservice hosting the ML model
+- Deployed using Render (Backend + Model) and Vercel (Frontend)
+- Cross-origin support and secure communication
+- Fully modular & extendable architecture
 
 ## 🚀 How It Works
 
