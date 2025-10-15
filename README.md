@@ -28,7 +28,7 @@
 Frontend (React + Vite + Tailwind)
            │
            ▼
-Spring Boot Backend (Java)
+Spring Boot Backend (Java)------> Database
            │
            ▼
 PostgreSQL Database (on Render)
